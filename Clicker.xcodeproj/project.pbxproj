@@ -14,6 +14,12 @@
 		CE47EB6126110ADA0083A77F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47EB6026110ADA0083A77F /* GameViewController.swift */; };
 		CE47EB6426110ADA0083A77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE47EB6226110ADA0083A77F /* Main.storyboard */; };
 		CE47EB6626110ADC0083A77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE47EB6526110ADC0083A77F /* Assets.xcassets */; };
+		CE47EB6F26110AEA0083A77F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE47EB6E26110AEA0083A77F /* Launch Screen.storyboard */; };
+		CE47EBB22611FF0A0083A77F /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47EBB12611FF0A0083A77F /* Other.swift */; };
+		CE47EBB5261306810083A77F /* SmartNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47EBB4261306810083A77F /* SmartNumber.swift */; };
+		CE7637C82614A97A004A3E51 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE7637C72614A97A004A3E51 /* coin.mp3 */; };
+		CE7637D02614AB53004A3E51 /* coin2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE7637CF2614AB53004A3E51 /* coin2.wav */; };
+		CEF5BB2A2616167E0093790B /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB292616167E0093790B /* SKTAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		CE47EB6326110ADA0083A77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE47EB6526110ADC0083A77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE47EB6726110ADC0083A77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE47EB6E26110AEA0083A77F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CE47EBB12611FF0A0083A77F /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		CE47EBB4261306810083A77F /* SmartNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartNumber.swift; sourceTree = "<group>"; };
+		CE7637C72614A97A004A3E51 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		CE7637CF2614AB53004A3E51 /* coin2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin2.wav; sourceTree = "<group>"; };
+		CEF5BB292616167E0093790B /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +70,18 @@
 		CE47EB5726110ADA0083A77F /* Clicker */ = {
 			isa = PBXGroup;
 			children = (
+				CE7637CF2614AB53004A3E51 /* coin2.wav */,
+				CE7637C72614A97A004A3E51 /* coin.mp3 */,
 				CE47EB5826110ADA0083A77F /* AppDelegate.swift */,
 				CE47EB5A26110ADA0083A77F /* GameScene.sks */,
 				CE47EB5C26110ADA0083A77F /* Actions.sks */,
 				CE47EB5E26110ADA0083A77F /* GameScene.swift */,
+				CEF5BB292616167E0093790B /* SKTAudio.swift */,
+				CE47EBB12611FF0A0083A77F /* Other.swift */,
+				CE47EBB4261306810083A77F /* SmartNumber.swift */,
 				CE47EB6026110ADA0083A77F /* GameViewController.swift */,
 				CE47EB6226110ADA0083A77F /* Main.storyboard */,
+				CE47EB6E26110AEA0083A77F /* Launch Screen.storyboard */,
 				CE47EB6526110ADC0083A77F /* Assets.xcassets */,
 				CE47EB6726110ADC0083A77F /* Info.plist */,
 			);
@@ -130,7 +148,10 @@
 				CE47EB6426110ADA0083A77F /* Main.storyboard in Resources */,
 				CE47EB5B26110ADA0083A77F /* GameScene.sks in Resources */,
 				CE47EB6626110ADC0083A77F /* Assets.xcassets in Resources */,
+				CE47EB6F26110AEA0083A77F /* Launch Screen.storyboard in Resources */,
 				CE47EB5D26110ADA0083A77F /* Actions.sks in Resources */,
+				CE7637C82614A97A004A3E51 /* coin.mp3 in Resources */,
+				CE7637D02614AB53004A3E51 /* coin2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE47EBB5261306810083A77F /* SmartNumber.swift in Sources */,
+				CE47EBB22611FF0A0083A77F /* Other.swift in Sources */,
 				CE47EB5F26110ADA0083A77F /* GameScene.swift in Sources */,
+				CEF5BB2A2616167E0093790B /* SKTAudio.swift in Sources */,
 				CE47EB6126110ADA0083A77F /* GameViewController.swift in Sources */,
 				CE47EB5926110ADA0083A77F /* AppDelegate.swift in Sources */,
 			);
@@ -283,13 +307,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 92S6JX27W2;
 				INFOPLIST_FILE = Clicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exerhythm.Clicker;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.exerhythm.Bitcoin-Clicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,13 +328,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 92S6JX27W2;
 				INFOPLIST_FILE = Clicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exerhythm.Clicker;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.exerhythm.Bitcoin-Clicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
