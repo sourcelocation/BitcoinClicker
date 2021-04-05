@@ -1,0 +1,2 @@
+# BitcoinClicker
+A clicker game
